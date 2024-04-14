@@ -1,16 +1,98 @@
+
+$night: #011502;
+$dark-green: #01200F;
+$cambridge-blue: #9EC5AB;
+$myrtle-green: #32746D;
+$midnight-green: #104F55;
+
+
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(../assets/Fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'RalewayItalic';
+    src: url(../assets/Fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+$defaultfont: 'Raleway';
+$defaultfontitalic: 'RalewayItalic';
+
+
 body{
     box-sizing: border-box;
+    background-color: $cambridge-blue;
 }
 
 *{
     margin: 0;
-
 }
 
-.content{
-
-    .forms{
-
+header{
+    display: flex;
+    justify-content: center;
+    font-family: $defaultfont;
+    flex-wrap: wrap;
+    background-color: $myrtle-green;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
+    box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
+    #sitedescription{
+        margin: 3rem;
+        background-color: $myrtle-green;
     }
     
+    nav{
+        padding: 1.5rem;
+        background-color: $myrtle-green;
+        
+        h1{
+            color: whitesmoke;
+            background-color: $myrtle-green;
+            font-weight: 900;
+            letter-spacing: .3rem;
+            word-spacing: 1rem;
+            font-size: 2rem;
+        }
+        #sitedescription{
+            background-color: $myrtle-green;
+            p#descriptiontext{
+                background-color: $myrtle-green;
+                
+            }
+            
+        }
+    }
+}
+
+
+.content{
+    font-family: $defaultfont;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: $cambridge-blue;
+    
+    #formtitle{
+        display: block;
+    }
+    .forms{
+        padding: 5rem;
+        margin: 1.75rem;
+        background-color: whitesmoke;
+        border-radius: .7rem;
+        -webkit-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
+        -moz-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
+        box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
+        .legend{
+            text-align: center;
+        }
+        .label{
+
+        }
+    }
+
 }
