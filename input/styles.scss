@@ -5,6 +5,7 @@ $cambridge-blue: #9EC5AB;
 $myrtle-green: #32746D;
 $midnight-green: #104F55;
 
+$tufts-blue: #3C91E6;
 
 
 @font-face {
@@ -22,7 +23,7 @@ $defaultfontitalic: 'RalewayItalic';
 
 body{
     box-sizing: border-box;
-    background-color: $cambridge-blue;
+    background-color: $tufts-blue;
 }
 
 *{
@@ -34,7 +35,7 @@ header{
     justify-content: center;
     font-family: $defaultfont;
     flex-wrap: wrap;
-    background-color: $myrtle-green;
+    background-color: whitesmoke;
     -webkit-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
     -moz-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
     box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
@@ -45,15 +46,14 @@ header{
     
     nav{
         padding: 1.5rem;
-        background-color: $myrtle-green;
         
         h1{
-            color: whitesmoke;
-            background-color: $myrtle-green;
+            color: $tufts-blue;
+            background-color: whitesmoke;
             font-weight: 900;
             letter-spacing: .3rem;
             word-spacing: 1rem;
-            font-size: 2rem;
+            font-size: clamp(16px, 5vw, 34px);
         }
         #sitedescription{
             background-color: $myrtle-green;
@@ -74,7 +74,7 @@ header{
     align-content: center;
     justify-content: center;
     margin-top: 1rem;
-    background-color: $cambridge-blue;
+    background-color: $tufts-blue;
     
     #formtitle{
         display: block;

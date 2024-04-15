@@ -8,7 +8,7 @@
 }
 body {
   box-sizing: border-box;
-  background-color: #9EC5AB;
+  background-color: #3C91E6;
 }
 
 * {
@@ -20,7 +20,7 @@ header {
   justify-content: center;
   font-family: "Raleway";
   flex-wrap: wrap;
-  background-color: #32746D;
+  background-color: whitesmoke;
   -webkit-box-shadow: 0px 0px 20px 0px rgb(16, 79, 85);
   -moz-box-shadow: 0px 0px 20px 0px rgb(16, 79, 85);
   box-shadow: 0px 0px 20px 0px rgb(16, 79, 85);
@@ -31,15 +31,14 @@ header #sitedescription {
 }
 header nav {
   padding: 1.5rem;
-  background-color: #32746D;
 }
 header nav h1 {
-  color: whitesmoke;
-  background-color: #32746D;
+  color: #3C91E6;
+  background-color: whitesmoke;
   font-weight: 900;
   letter-spacing: 0.3rem;
   word-spacing: 1rem;
-  font-size: 2rem;
+  font-size: clamp(16px, 5vw, 34px);
 }
 header nav #sitedescription {
   background-color: #32746D;
@@ -55,7 +54,7 @@ header nav #sitedescription p#descriptiontext {
   align-content: center;
   justify-content: center;
   margin-top: 1rem;
-  background-color: #9EC5AB;
+  background-color: #3C91E6;
 }
 .content #formtitle {
   display: block;
