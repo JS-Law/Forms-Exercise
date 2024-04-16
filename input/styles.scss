@@ -23,7 +23,7 @@ $defaultfontitalic: 'RalewayItalic';
 
 body{
     box-sizing: border-box;
-    background-color: $tufts-blue;
+    background-color: whitesmoke;
 }
 
 *{
@@ -50,10 +50,10 @@ header{
         h1{
             color: $tufts-blue;
             background-color: whitesmoke;
-            font-weight: 900;
+            font-weight: 300;
             letter-spacing: .3rem;
             word-spacing: 1rem;
-            font-size: clamp(16px, 5vw, 34px);
+            font-size: clamp(16px, 10vw, 40px);
         }
         #sitedescription{
             background-color: $myrtle-green;
@@ -74,11 +74,8 @@ header{
     align-content: center;
     justify-content: center;
     margin-top: 1rem;
-    background-color: $tufts-blue;
+    background-color: whitesmoke;
     
-    #formtitle{
-        display: block;
-    }
     .forms{
         padding: 5rem;
         margin: 1.75rem;
@@ -87,6 +84,10 @@ header{
         -webkit-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
         -moz-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
         box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
+        
+        #formtitle{
+            display: block;
+        }
         .legend{
             text-align: center;
         }

@@ -8,7 +8,7 @@
 }
 body {
   box-sizing: border-box;
-  background-color: #3C91E6;
+  background-color: whitesmoke;
 }
 
 * {
@@ -35,10 +35,10 @@ header nav {
 header nav h1 {
   color: #3C91E6;
   background-color: whitesmoke;
-  font-weight: 900;
+  font-weight: 300;
   letter-spacing: 0.3rem;
   word-spacing: 1rem;
-  font-size: clamp(16px, 5vw, 34px);
+  font-size: clamp(16px, 10vw, 40px);
 }
 header nav #sitedescription {
   background-color: #32746D;
@@ -54,10 +54,7 @@ header nav #sitedescription p#descriptiontext {
   align-content: center;
   justify-content: center;
   margin-top: 1rem;
-  background-color: #3C91E6;
-}
-.content #formtitle {
-  display: block;
+  background-color: whitesmoke;
 }
 .content .forms {
   padding: 5rem;
@@ -67,6 +64,9 @@ header nav #sitedescription p#descriptiontext {
   -webkit-box-shadow: 0px 0px 20px 0px rgb(16, 79, 85);
   -moz-box-shadow: 0px 0px 20px 0px rgb(16, 79, 85);
   box-shadow: 0px 0px 20px 0px rgb(16, 79, 85);
+}
+.content .forms #formtitle {
+  display: block;
 }
 .content .forms .legend {
   text-align: center;
