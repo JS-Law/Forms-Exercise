@@ -50,7 +50,7 @@ header{
         h1{
             color: $tufts-blue;
             background-color: whitesmoke;
-            font-weight: 300;
+            font-weight: 500;
             letter-spacing: .3rem;
             word-spacing: 1rem;
             font-size: clamp(16px, 10vw, 40px);
@@ -114,17 +114,31 @@ header{
             padding-inline: .4rem;
             padding-block-end: 1rem;
             border: 2px solid $tufts-blue;
-            -webkit-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
-            -moz-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
-            box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
+            // -webkit-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
+            // -moz-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
+            // box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
             .cardflip{
                 height: 1rem;
                 width: auto;
                 border-radius: .7rem;
             }
+            .formdescription{
+                margin-inline: 1rem;
+                margin-block: 3rem;
+            }
+            .basicform{
+                color: $tufts-blue;
+                border: solid 2px $tufts-blue;
+                margin-block: 2rem;
+            }
+            
             #formtitle{
                 display: inline;
-                padding-left: 15%;
+                padding-left: 20%;
+                color: $tufts-blue;
+                font-weight: 500;
+                letter-spacing: .3rem;
+                font-size: 1.3rem;
             }
             .legend{
                 text-align: center;
