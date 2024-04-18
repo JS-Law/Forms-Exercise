@@ -36,10 +36,12 @@ header{
     font-family: $defaultfont;
     flex-wrap: wrap;
     background-color: whitesmoke;
-    -webkit-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
-    -moz-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
-    box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
-    margin-block-end: 2rem;
+
+    // -webkit-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
+    // -moz-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
+    margin-block-end: -.5rem;
+    // box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
+    
     nav{
         padding: 1.5rem;
         
@@ -53,7 +55,25 @@ header{
         }
     }
 }
-
+.borders{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .border{
+        border: .5px solid $tufts-blue;
+        margin: .2rem;
+    }
+    #border1{
+        width: 95vw;
+    }
+    #border2{
+        width: 65vw;
+        
+    }
+    #border3{
+        width: 35vw;
+    }
+}
 .site-description{
     display: flex;
     flex-wrap: wrap;
