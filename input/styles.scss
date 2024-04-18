@@ -114,6 +114,7 @@ header{
             padding-inline: .4rem;
             padding-block-end: 1rem;
             border: 2px solid $tufts-blue;
+
             // -webkit-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
             // -moz-box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
             // box-shadow: 0px 0px 20px 0px rgba(16,79,85,1);
@@ -124,29 +125,40 @@ header{
             }
             .formdescription{
                 margin-inline: 1rem;
-                margin-block: 3rem;
+                margin-block: 4.5rem;
             }
             .basicform{
+                display: flex;
+                flex-direction: column;
+                gap: .5rem;
                 color: $tufts-blue;
                 border: solid 2px $tufts-blue;
                 margin-block: 2rem;
+                border-radius: .4rem;
+
+                .inputContainer{
+                    display: flex;
+                    justify-content: space-between;
+                }
             }
             
             #formtitle{
                 display: inline;
+                // color: $tufts-blue;
                 padding-left: 20%;
-                color: $tufts-blue;
-                font-weight: 500;
+                font-weight: 700;
                 letter-spacing: .3rem;
                 font-size: 1.3rem;
             }
             .legend{
                 text-align: center;
+
             }
-            .label{
-    
+            legend{
+                color: $night;
+
             }
         }
     }
-
+    
 }

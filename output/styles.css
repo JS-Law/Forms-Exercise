@@ -100,23 +100,33 @@ header nav h1 {
 }
 .content .card .forms .formdescription {
   margin-inline: 1rem;
-  margin-block: 3rem;
+  margin-block: 4.5rem;
 }
 .content .card .forms .basicform {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   color: #3C91E6;
   border: solid 2px #3C91E6;
   margin-block: 2rem;
+  border-radius: 0.4rem;
+}
+.content .card .forms .basicform .inputContainer {
+  display: flex;
+  justify-content: space-between;
 }
 .content .card .forms #formtitle {
   display: inline;
   padding-left: 20%;
-  color: #3C91E6;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 0.3rem;
   font-size: 1.3rem;
 }
 .content .card .forms .legend {
   text-align: center;
+}
+.content .card .forms legend {
+  color: #011502;
 }
 
 /*# sourceMappingURL=styles.css.map */
