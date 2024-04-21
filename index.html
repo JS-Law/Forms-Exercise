@@ -85,8 +85,43 @@
                     <p class="formdescription">
                         Here will contain a brief description of the utility of this form, and perhaps some other things as well!
                     </p>
-                    <label for="" class="label" id="label2"></label>
-                    <input type="text" />
+                    <fieldset id="surveyform">
+                        <legend>Customer Service Review</legend>
+                        
+                        <label for="question1" class="label" id="label2">Will you recommend us in the future?</label>
+                        <hr>
+                        <div class="answers">
+                            <input type="radio" name="question1" id="question1Yes">
+                            <label for="question1">Yes</label>
+                        </div>
+                        <div class="answers">    
+                            <input type="radio" name="question1" id="question1No">
+                            <label for="question1">No</label>
+                        </div>
+
+                        <label for="question1" class="label" id="label2">Are you satisified with the customer service you received?</label>
+                        <hr>
+                        <div class="answers">
+                            <input type="radio" name="question2" id="question2Yes">
+                            <label for="question2">Yes</label>
+                        </div>
+                        <div class="answers">    
+                            <input type="radio" name="question2" id="question2No">
+                            <label for="question2">No</label>
+                        </div>
+
+                        <label for="question1" class="label" id="label2">Would you like to sign up for our weekly newsletter?</label>
+                        <hr>
+                        <div class="answers">
+                            <input type="radio" name="question3" id="question3Yes">
+                            <label for="question3">Yes</label>
+                        </div>
+                        <div class="answers">
+                            <input type="radio" name="question3" id="question3No">
+                            <label for="question3">No</label>
+                        </div>
+                        <button id="surveySubmit">Submit</button>
+                    </fieldset>
                 </div>
             </div>
 
