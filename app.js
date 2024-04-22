@@ -1,3 +1,5 @@
+// RADIO EMPHASIZE
+
 document.addEventListener('DOMContentLoaded', function() {
     function setupRadioButtons(name) {
         const radios = document.querySelectorAll(`input[type="radio"][name="${name}"]`);
@@ -17,3 +19,35 @@ document.addEventListener('DOMContentLoaded', function() {
     setupRadioButtons('question2');
     setupRadioButtons('question3');
 });
+
+function requireInput(name){
+    let inputs = document.querySelectorAll(`input[type="text"][name="${name}"]`)
+    inputs.forEach(input => {
+        input.addEventListener('invalid', () => {
+            input.setCustomValidity('Please fill in the required field.')
+        });
+        input.addEventListener('input', () => {
+            input.setCustomValidity(''); // Clears custom validity message
+        });
+    })
+}
+
+requireInput('name');
+requireInput('email');
+requireInput('phone_number');
+requireInput('street_address');
+requireInput('city');
+requireInput('zip_code');
+
+
+// document.addEventListener('DOMContentLoaded', function() {
+//     function validateInput(name) {
+//         const textInput = document.querySelectorAll(`input[type="text"][name="${name}"`);
+//         textInput.forEach()
+
+//     }
+// })
+
+// nameInput.addEventListener('invalid', () => {
+//     nameInput.setCustomValidity('Please fill in the required field');
+// });

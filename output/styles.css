@@ -136,6 +136,9 @@ header nav h1 {
   display: flex;
   justify-content: space-between;
 }
+.content .card .forms .basicform input:invalid {
+  border: 1px red solid;
+}
 .content .card .forms #surveyform {
   display: flex;
   flex-direction: column;
@@ -166,9 +169,6 @@ header nav h1 {
   color: #3C91E6;
   background-color: #eef0f0;
   border: 1px solid #3C91E6;
-}
-.content .card .forms surveySubmit:invalid {
-  border: 1px red solid;
 }
 .content .card .forms #formtitle {
   display: inline;

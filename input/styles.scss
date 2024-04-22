@@ -162,6 +162,9 @@ header{
                     display: flex;
                     justify-content: space-between;
                 }
+                input:invalid{
+                    border: 1px red solid;
+                }
             }
             #surveyform{
                 display: flex;
@@ -194,9 +197,6 @@ header{
                 color: $tufts-blue;
                 background-color: #eef0f0;
                 border: 1px solid $tufts-blue;
-            }
-            surveySubmit:invalid{
-                border: 1px red solid;
             }
             #formtitle{
                 display: inline;
