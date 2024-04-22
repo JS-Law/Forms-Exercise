@@ -48,17 +48,17 @@
                             <legend id="contact">Contact Details</legend>
                             <div class="inputContainer">
                                 <label class="formitem" for="name">Name:</label>
-                                <input class="forminput" placeholder="Enter your name here" type="text" id="name" name="name" />
+                                <input class="forminput" autocomplete="name" placeholder="Enter your name here" type="text" id="name" name="name" />
                             </div>
     
                             <div class="inputContainer">
                                 <label class="formitem" for="phone_number">Phone Number:</label>
-                                <input class="forminput" placeholder="Enter your number" type="tel" id="phone_number" name="phone_number" />
+                                <input class="forminput" autocomplete="email" placeholder="Enter your number" type="text" id="phone_number" name="phone_number" />                                                            
                             </div>
     
                             <div class="inputContainer">
                                 <label class="formitem" for="email">Email:</label>
-                                <input class="forminput" type="email" placeholder="Enter email here" id="email" name="email" />
+                                <input class="forminput" type="email" autocomplete="email" placeholder="Enter email here" id="email" name="email" />
                             </div>
                         </fieldset>
     
@@ -66,13 +66,13 @@
                             <legend>Delivery Details</legend>
     
                             <label for="street_address">Street Address:</label>
-                            <input type="text" placeholder="Enter your street address" id="street_address" name="street_address" />
+                            <input type="text" autocomplete="address"  placeholder="Enter your street address" id="street_address" name="street_address" />
     
                             <label for="city">City:</label>
-                            <input type="text" placeholder="Enter your current City" id="city" name="city" />
+                            <input type="text" autocomplete="tel" placeholder="Enter your current City" id="city" name="city" />
     
                             <label for="zip_code">Zip Code:</label>
-                            <input type="text" placeholder="Zip Code" id="zip_code" name="zip_code" />
+                            <input type="text" autocomplete="tel" placeholder="Zip Code" id="zip_code" name="zip_code" />
                         </fieldset>
                         <button id="basicSubmit" type="submit">Submit</button>
                     </form>
