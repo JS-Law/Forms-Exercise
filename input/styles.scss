@@ -146,6 +146,9 @@ header{
                 background-color: #eef0f0;
                 border: 1px solid $tufts-blue;
             }
+            #basicSubmit:invalid{
+                border: 1px red solid;
+            }
             .basicform{
                 display: flex;
                 flex-direction: column;
@@ -171,6 +174,9 @@ header{
                 border-radius: .4rem;
                 .answers{
                     color: $night;
+                    .bold-label {
+                        font-weight: bold;
+                    }
                 }
             }
             #surveySubmit{
@@ -188,6 +194,9 @@ header{
                 color: $tufts-blue;
                 background-color: #eef0f0;
                 border: 1px solid $tufts-blue;
+            }
+            surveySubmit:invalid{
+                border: 1px red solid;
             }
             #formtitle{
                 display: inline;

@@ -120,6 +120,9 @@ header nav h1 {
   background-color: #eef0f0;
   border: 1px solid #3C91E6;
 }
+.content .card .forms #basicSubmit:invalid {
+  border: 1px red solid;
+}
 .content .card .forms .basicform {
   display: flex;
   flex-direction: column;
@@ -146,6 +149,9 @@ header nav h1 {
 .content .card .forms #surveyform .answers {
   color: #011502;
 }
+.content .card .forms #surveyform .answers .bold-label {
+  font-weight: bold;
+}
 .content .card .forms #surveySubmit {
   width: 50%;
   margin-inline-start: 25%;
@@ -160,6 +166,9 @@ header nav h1 {
   color: #3C91E6;
   background-color: #eef0f0;
   border: 1px solid #3C91E6;
+}
+.content .card .forms surveySubmit:invalid {
+  border: 1px red solid;
 }
 .content .card .forms #formtitle {
   display: inline;
