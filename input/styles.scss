@@ -166,24 +166,28 @@ header{
                 gap: .5rem;
                 color: $tufts-blue;
                 border: solid 2px $tufts-blue;
-                margin-block: 2rem;
+                margin-block: .9rem;
+                padding-block-end: 1.25rem;
                 border-radius: .4rem;
-                #surveySubmit{
-                    width: 50%;
-                    margin-inline-start: 25%;
-                    height: 1.75rem;
-                    border-radius: .4rem;
-                    border: solid 1px white;
-                    color: whitesmoke;
-                    letter-spacing: .3rem;
-                    background-color: $tufts-blue;
-                    
+                .answers{
+                    color: $night;
                 }
-                #surveySubmit:hover{
-                    color: $tufts-blue;
-                    background-color: #eef0f0;
-                    border: 1px solid $tufts-blue;
-                }
+            }
+            #surveySubmit{
+                width: 50%;
+                margin-inline-start: 25%;
+                height: 1.75rem;
+                border-radius: .4rem;
+                border: solid 1px white;
+                color: whitesmoke;
+                letter-spacing: .3rem;
+                background-color: $tufts-blue;
+                
+            }
+            #surveySubmit:hover{
+                color: $tufts-blue;
+                background-color: #eef0f0;
+                border: 1px solid $tufts-blue;
             }
             #formtitle{
                 display: inline;

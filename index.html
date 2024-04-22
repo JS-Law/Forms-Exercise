@@ -43,38 +43,39 @@
                     <p class="formdescription">
                         Here will contain a brief description of the utility of this form, and perhaps some other things as well!
                     </p>
-                    
-                    <fieldset class="basicform" >
-                        <legend id="contact">Contact Details</legend>
-                        <div class="inputContainer">
-                            <label class="formitem" for="name">Name:</label>
-                            <input class="forminput" placeholder="Enter your name here!" type="text" id="name" name="name" />
-                        </div>
-
-                        <div class="inputContainer">
-                            <label class="formitem" for="phone_number">Phone Number:</label>
-                            <input class="forminput" placeholder="Gimme yer number" type="tel" id="phone_number" name="phone_number" />
-                        </div>
-
-                        <div class="inputContainer">
-                            <label class="formitem" for="email">Email:</label>
-                            <input class="forminput" type="email" placeholder="Got an Email?" id="email" name="email" />
-                        </div>
-                    </fieldset>
-
-                    <fieldset class="basicform" id="deliveryDetails">
-                        <legend>Delivery Details</legend>
-
-                        <label for="street_address">Street Address:</label>
-                        <input type="text" placeholder="Whats your street address?" id="street_address" name="street_address" />
-
-                        <label for="city">City:</label>
-                        <input type="text" placeholder="Enter the city you live in!" id="city" name="city" />
-
-                        <label for="zip_code">Zip Code:</label>
-                        <input type="text" placeholder="Got hoes?" id="zip_code" name="zip_code" />
-                    </fieldset>
-                    <button id="basicSubmit" type="submit">Submit</button>
+                    <form action="" method="post">
+                        <fieldset class="basicform">
+                            <legend id="contact">Contact Details</legend>
+                            <div class="inputContainer">
+                                <label class="formitem" for="name">Name:</label>
+                                <input class="forminput" placeholder="Enter your name here" type="text" id="name" name="name" />
+                            </div>
+    
+                            <div class="inputContainer">
+                                <label class="formitem" for="phone_number">Phone Number:</label>
+                                <input class="forminput" placeholder="Enter your number" type="tel" id="phone_number" name="phone_number" />
+                            </div>
+    
+                            <div class="inputContainer">
+                                <label class="formitem" for="email">Email:</label>
+                                <input class="forminput" type="email" placeholder="Enter email here" id="email" name="email" />
+                            </div>
+                        </fieldset>
+    
+                        <fieldset class="basicform" id="deliveryDetails">
+                            <legend>Delivery Details</legend>
+    
+                            <label for="street_address">Street Address:</label>
+                            <input type="text" placeholder="Enter your street address" id="street_address" name="street_address" />
+    
+                            <label for="city">City:</label>
+                            <input type="text" placeholder="Enter your current City" id="city" name="city" />
+    
+                            <label for="zip_code">Zip Code:</label>
+                            <input type="text" placeholder="Zip Code" id="zip_code" name="zip_code" />
+                        </fieldset>
+                        <button id="basicSubmit" type="submit">Submit</button>
+                    </form>
                 </div>
             </div>
 
@@ -85,43 +86,45 @@
                     <p class="formdescription">
                         Here will contain a brief description of the utility of this form, and perhaps some other things as well!
                     </p>
-                    <fieldset id="surveyform">
-                        <legend>Customer Service Review</legend>
-                        
-                        <label for="question1" class="label" id="label2">Will you recommend us in the future?</label>
-                        <hr>
-                        <div class="answers">
-                            <input type="radio" name="question1" id="question1Yes">
-                            <label for="question1">Yes</label>
-                        </div>
-                        <div class="answers">    
-                            <input type="radio" name="question1" id="question1No">
-                            <label for="question1">No</label>
-                        </div>
-
-                        <label for="question1" class="label" id="label2">Are you satisified with the customer service you received?</label>
-                        <hr>
-                        <div class="answers">
-                            <input type="radio" name="question2" id="question2Yes">
-                            <label for="question2">Yes</label>
-                        </div>
-                        <div class="answers">    
-                            <input type="radio" name="question2" id="question2No">
-                            <label for="question2">No</label>
-                        </div>
-
-                        <label for="question1" class="label" id="label2">Would you like to sign up for our weekly newsletter?</label>
-                        <hr>
-                        <div class="answers">
-                            <input type="radio" name="question3" id="question3Yes">
-                            <label for="question3">Yes</label>
-                        </div>
-                        <div class="answers">
-                            <input type="radio" name="question3" id="question3No">
-                            <label for="question3">No</label>
-                        </div>
-                        <button id="surveySubmit">Submit</button>
-                    </fieldset>
+                    <form action="" method="post">
+                        <fieldset id="surveyform">
+                            <legend>Customer Service Review</legend>
+                            
+                            <label for="question1" class="label" id="label2">Will you recommend us in the future?</label>
+                            <hr>
+                            <div class="answers">
+                                <input type="radio" name="question1" id="question1Yes">
+                                <label for="question1Yes">Yes</label>
+                            </div>
+                            <div class="answers">    
+                                <input type="radio" name="question1" id="question1No">
+                                <label for="question1No">No</label>
+                            </div>
+    
+                            <label for="question1" class="label" id="label2">Are you satisified with the customer service you received?</label>
+                            <hr>
+                            <div class="answers">
+                                <input type="radio" name="question2" id="question2Yes">
+                                <label for="question2Yes">Yes</label>
+                            </div>
+                            <div class="answers">    
+                                <input type="radio" name="question2" id="question2No">
+                                <label for="question2No">No</label>
+                            </div>
+    
+                            <label for="question1" class="label" id="label2">Would you like to sign up for our weekly newsletter?</label>
+                            <hr>
+                            <div class="answers">
+                                <input type="radio" name="question3" id="question3Yes">
+                                <label for="question3Yes">Yes</label>
+                            </div>
+                            <div class="answers">
+                                <input type="radio" name="question3" id="question3No">
+                                <label for="question3No">No</label>
+                            </div>
+                        </fieldset>
+                        <button id="surveySubmit" type="submit">Submit</button>
+                    </form>
                 </div>
             </div>
 

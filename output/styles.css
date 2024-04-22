@@ -139,10 +139,14 @@ header nav h1 {
   gap: 0.5rem;
   color: #3C91E6;
   border: solid 2px #3C91E6;
-  margin-block: 2rem;
+  margin-block: 0.9rem;
+  padding-block-end: 1.25rem;
   border-radius: 0.4rem;
 }
-.content .card .forms #surveyform #surveySubmit {
+.content .card .forms #surveyform .answers {
+  color: #011502;
+}
+.content .card .forms #surveySubmit {
   width: 50%;
   margin-inline-start: 25%;
   height: 1.75rem;
@@ -152,7 +156,7 @@ header nav h1 {
   letter-spacing: 0.3rem;
   background-color: #3C91E6;
 }
-.content .card .forms #surveyform #surveySubmit:hover {
+.content .card .forms #surveySubmit:hover {
   color: #3C91E6;
   background-color: #eef0f0;
   border: 1px solid #3C91E6;
