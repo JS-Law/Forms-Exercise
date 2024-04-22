@@ -39,15 +39,3 @@ requireInput('street_address');
 requireInput('city');
 requireInput('zip_code');
 
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     function validateInput(name) {
-//         const textInput = document.querySelectorAll(`input[type="text"][name="${name}"`);
-//         textInput.forEach()
-
-//     }
-// })
-
-// nameInput.addEventListener('invalid', () => {
-//     nameInput.setCustomValidity('Please fill in the required field');
-// });
